@@ -14,7 +14,7 @@ phone: 445-208-8781
 # phone_title: Phone (Phone title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: HZhao2000
@@ -41,6 +41,10 @@ linkedin_username: haoranzhaods
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
+  Harry Zhao is an undergraduate at [Drexel University](https://drexel.edu/) seeking a Bachelors of Science in <mark>Data Science</mark> and minor in <mark>Economics</mark>.
+
+  He is incredibly insightful when confronting challenges and works immediately to solve them. He is always open minded to new opportunities and is more than able to address complex situations with strategy and confidence.
+  
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
