@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Hexo Configuration
 
 # Site
@@ -171,6 +172,9 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+=======
+theme: jekyll-theme-modernist
+>>>>>>> parent of 1305065... hexo
 =======
 theme: jekyll-theme-modernist
 >>>>>>> parent of 1305065... hexo
