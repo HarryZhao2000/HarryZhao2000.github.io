@@ -44,25 +44,43 @@ about_content: | # this will include new lines to allow paragraphs
   Harry Zhao is an undergraduate at [Drexel University](https://drexel.edu/) seeking a Bachelors of Science in <mark>Data Science</mark> and minor in <mark>Economics</mark>.
 
   He is incredibly insightful when confronting challenges and works immediately to solve them. He is always open minded to new opportunities and is more than able to address complex situations with strategy and confidence.
-  
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                    # other value (or no value) means no border will be displayed
+        title: Data Driven Dynamical Design project(NFS)
+        quote: >
+          Using computer dynamic model to predict the air quality of Lanzhou
+        description: | # this will include new lines to allow paragraphs
+          • Build efficient downloading pipeline to collect scholarly literature in material science from various publishers
+          
+          • Participate in team meetings and collaborate on scholarly and scientific output
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Air Quality Prediction of Lanzhou Based on LSTM
+        link: https://iopscience.iop.org/article/10.1088/1742-6596/2033/1/012085
+        link_text: Artical Link
+        quote: >
+          Using computer dynamic model to predict the air quality of Lanzhou
+        description: | # this will include new lines to allow paragraphs
+          • Took charge of organizing group discussions, determining the research topics, and assigning works to the team members in the early stage.
+          
+          • Took charge of proposing and organizing the works related to the implementation of the project and controlling the project schedule in the middle stage.
+          
+          • Adopted Cross-validation method for repeated samplings and compared the prediction model with traditional RNN model.
+          
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: Google Open Source Blockly Teaching Cases Data Systems
+        link: http://blockly.york.moe/
+        link_text: Project Link
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
@@ -71,38 +89,97 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          A secondary development blockly cases system
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          • Participate in the project design and group discussions.
+          
+          • Determined the four curriculum data systems of the project, including epidemic transmission simulation, butterfly effect simulation, visual simulation of sorting in computers, and simulation of different game strategies.
+          
+          • Learned and used mathematical modeling thinking to design the cases’ database.
+          
+          • Simulated the phenomena in life by combining mathematics and computer simulation methods.
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
+        title: A New Type Box Drawing Design Based on Matplotlib
+        link: https://github.com/HarryZhao2000/boxplot
+        link_text: GitHub Repository
+        additional_links:
+        quote: >
+          An attempt to improve the box plot based on practice
+        description: | # this will include new lines to allow paragraphs
+          • Participate in the construction of power boxplot module, drew new boxplot type methods (info boxplot, hist boxplot, and creative boxplot), improved the shortcomings of the existing methods, and built the module.
+          
+          • Learned to use matplotlib package knowledge and skills.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Drexel University Metadata Research Center
+        sub_title: Research Accountant
+        caption: January 2022 to Present
+        link: https://cci.drexel.edu/mrc/
         quote: >
-          Short description of the company (optional)
+          Participate in the NSF Institute for Data Driven Dynamical Design project
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          • Build efficient downloading pipeline to collect scholarly literature in material science from various publishers
+          
+          • Participate in team meetings and collaborate on scholarly and scientific output
+      - layout: right
+        title: Lanzhou University DSLab
+        sub_title: Team Leader for the Blockly Module
+        caption: March 2021 to Present
+        link: http://dslab.lzu.edu.cn/
+        quote: >
+          Participate in the Google Open Source Blockly Teaching Cases Data Systems project
+        description: | # this will include new lines to allow paragraphs
+          • Determined the four curriculum data systems of the project.
+          
+          • Simulated the phenomena in life by combining mathematics and computer simulation methods.
+      - layout: right
+        title: Hangzhou Yunge Data Technology Co., Ltd
+        sub_title: Data Scientist Internship
+        caption: August to September 2019
+        quote: >
+          Participated in the development of Instant messenger-based roadside assistance system
+        description: | # this will include new lines to allow paragraphs
+          • Participated in project code testing and data maintenance related works.
+          
+          • Assist project manager to record project progress and monitor the progress in real time.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: Lanzhou University
+        sub_title: Bachelor of Science in Information Science
+        caption: September 2018 to June 2021
+      - layout: top-right
+        title: Drexel University
+        sub_title: Bachelor of Science in Information Science
+        caption: Anticipated Graduation: June 2023
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Skills:
+        Programing languages: Python, C, R, HTML, JavaScript, Bash, MySQL
+        Tools:Git, Postgres, PyCharm, WebStorm, Apache Hadoop, Xcode, weka, DrRacket, Gephi, Jupyter Notebook Frameworks: Pandas, NumPy, Flask, TensorFlow, PaddlePaddle, scikit-learn, Beautiful Soup
+        Operating System: Ubuntu(Unity), macOS(Darwin)
+    
+      Relevant Coursework:
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        Data Structures
+        Introduction to Data Science
+        Information Visualization
+        Social Media Data Analysis
+        Business Statistics I, II
+        Data Curation
+        Data Science Programming I, II
+        Data Mining Applications
+        Linear Algebra
+        Database Management Systems
+        Information Retrieval Systems
+        Machine Learning
 
 # Footer
 footer_show_references: true
